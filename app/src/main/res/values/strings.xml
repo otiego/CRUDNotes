@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CRUDNotes App</string>
+    <string name="title">Title</string>
+    <string name="there_be_a_very_long_description_of_the_note">There be a very long description of the note</string>
+</resources>
