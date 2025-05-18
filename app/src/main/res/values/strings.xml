@@ -2,4 +2,8 @@
     <string name="app_name">CRUDNotes App</string>
     <string name="title">Title</string>
     <string name="there_be_a_very_long_description_of_the_note">There be a very long description of the note</string>
+    <string name="deletes_note">deletes note</string>
+    <string name="edits_note">edits_note</string>
+    <string name="copies_note">copies_note</string>
+    <string name="shares_note">shares_note</string>
 </resources>

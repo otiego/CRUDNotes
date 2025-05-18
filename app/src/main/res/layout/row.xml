@@ -31,6 +31,47 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/there_be_a_very_long_description_of_the_note"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="3dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+            
+            <ImageButton
+                android:id="@+id/deleteBtn"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/deletes_note" />
+
+            <ImageButton
+                android:id="@+id/editBtn"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/edits_note" />
+
+            <ImageButton
+                android:id="@+id/copyBtn"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/copies_note" />
+
+            <ImageButton
+                android:id="@+id/shareBtn"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/shares_note" />
+            
+        </LinearLayout>
 
     </LinearLayout>
 
