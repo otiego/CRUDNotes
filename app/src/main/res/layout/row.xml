@@ -2,6 +2,7 @@
 <!--custom row of the listView-->
 <!--we add cardview because we will use it so we add cardview library in the dependency list gradle file -->
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -42,17 +43,20 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="end">
-            
+
             <ImageButton
                 android:id="@+id/deleteBtn"
-                android:background="@null"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/deletes_note" />
+                android:background="@null"
+                android:contentDescription="@string/deletes_note"
+                android:src="@drawable/icons8_delete"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
                 android:id="@+id/editBtn"
                 android:background="@null"
+                android:src="@drawable/icons8_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/edits_note" />
@@ -60,6 +64,7 @@
             <ImageButton
                 android:id="@+id/copyBtn"
                 android:background="@null"
+                android:src="@drawable/ic_action_copy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/copies_note" />
@@ -67,6 +72,7 @@
             <ImageButton
                 android:id="@+id/shareBtn"
                 android:background="@null"
+                android:src="@drawable/icons8_share"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/shares_note" />
