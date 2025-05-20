@@ -6,4 +6,10 @@
     <string name="edits_note">edits_note</string>
     <string name="copies_note">copies_note</string>
     <string name="shares_note">shares_note</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="describe_your_note_here">Describe your note here...</string>
+    <string name="add">Add</string>
+    <string name="settings">settings</string>
+    <string name="search">search</string>
+    <string name="add_note">Add Note</string>
 </resources>
