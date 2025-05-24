@@ -12,4 +12,5 @@
     <string name="settings">settings</string>
     <string name="search">search</string>
     <string name="add_note">Add Note</string>
+    <string name="notes_list">Notes List</string>
 </resources>
